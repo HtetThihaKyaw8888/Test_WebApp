@@ -1,0 +1,22 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b0c10;color:#e9eef6}
+a{color:inherit;text-decoration:none}
+.app{min-height:100vh}
+.header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);backdrop-filter:blur(10px);position:sticky;top:0}
+.brand{font-weight:700}
+.nav{display:flex;gap:12px}
+.link{padding:8px 12px;border-radius:10px;opacity:.85}
+.link.active{background:rgba(255,255,255,.08);opacity:1}
+.main{max-width:900px;margin:0 auto;padding:24px}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px}
+.row{display:flex;gap:10px;align-items:center;margin:12px 0;flex-wrap:wrap}
+.input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.25);color:#e9eef6;outline:none}
+.btn{padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.08);color:#e9eef6;cursor:pointer}
+.btn.ghost{background:transparent}
+.list{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-direction:column;gap:10px}
+.item{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
+.left{display:flex;align-items:center;gap:10px;min-width:0}
+.title{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:60vw}
+.done{text-decoration:line-through;opacity:.6}
+.meta{opacity:.85;font-size:14px}
+.muted{opacity:.75}
